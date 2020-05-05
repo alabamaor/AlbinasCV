@@ -1,0 +1,138 @@
+/* ********************** HTML tags ********************** */
+body {
+    background: #142850;
+    background-image: linear-gradient(to right, #0b172b , #233d66,#3b619e,  #233d66, #0b172b); 
+    /* background-image: url("../images/pattern.png"); */
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Sacramento', cursive;
+    letter-spacing: 0.01em;
+    margin-bottom: 0;
+    text-shadow:  5px 5px rgba(1,1,1, 0.5);
+}
+h1, h2, h3{
+  text-transform: capitalize;
+}
+h2, h3,h5{
+font-family: 'Merriweather', sans-serif;
+margin: 0;
+}
+h2{
+  font-size: 1.7em;
+}
+h3{
+  font-size: 1.3em;
+}
+h5{
+  font-size: 0.7em;
+}
+p {
+  width: 12em;
+}
+
+hr{
+  margin: 50px 10%;
+}
+/* ********************** Class tags ********************** */
+.details-div {
+    margin-bottom: 5em;
+}
+
+.skills-lower-div,
+.skills-upper-div {
+    position: relative;
+    bottom: 12.5em;
+    z-index: 4;
+}
+.box{
+
+  background-color: rgba(252, 252, 252, 0.2);
+  border-radius: 25px;
+  border: 1mm ridge white;
+  box-shadow: 5px 5px rgba(1,1,1, 0.5);
+}
+.skill-image {
+    height: 5em;
+    position: relative;
+    padding: 1em;
+}
+.main-image {
+    display: block;
+    height: 25rem;
+    margin: 0 auto;
+    position: relative;
+    top: 5em;
+    z-index: 1;
+}
+.android-image {
+    right: 8em;
+    top: 3.5em;
+}
+.react-image {
+    left: 8em;
+    bottom: 3.5em;
+
+}
+.ios-image {
+    right: 9em;
+    bottom: 10em;
+}
+.js-image {
+    left: 9em;
+    top: 10em;
+}
+.java-image {
+    right: 4em;
+    bottom: 15em;
+}
+.css-image {
+    left: 1em;
+    bottom: 10em;
+}
+.node-image {
+
+    left: 4em;
+    top: 13em;
+}
+.html5-image {
+    right: 1em;
+    top: 10em;
+}
+.smth {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.work-exp-col{
+  display: inline-table;
+  height: 15em;
+  width: 14em;
+  padding: 1em;
+}
+.work-exp-title{
+  height: 3em;
+  vertical-align: middle;
+  display: contents;
+}
+.work-exp-years{
+  font-style: italic;
+}
+
+.work-exp-company{
+  font-weight: 100;
+}
+
+.work-exp-img{
+  height: 4em;
+  width: 4em;
+}
+/* ********************** ID tags ********************** */
