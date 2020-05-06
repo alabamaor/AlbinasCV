@@ -1,4 +1,4 @@
-@media screen and (max-width : 520px) {
+@media screen and (max-width : 650px) {
   
     h1 {
       font-size: 4em;
@@ -41,8 +41,9 @@
 a{
   margin-top: 1em;
  display: block;
+ text-align: right;
   }
-  a>img{
+  a>img{    float: left;
     height: 1em;
 }
 
@@ -51,119 +52,4 @@ a{
   right: 1em;
 }
 
-
-/*     
-    
-    a{
-      color: white; 
-        text-align: left;
-        display: block;
-        font-family: 'Open Sans', sans-serif;
-        text-decoration: none;
-        margin-top: 10px;
-        position: relative;
-        left:50px;
-    }
-    a:hover{
-      color: #feec33;
-    }
-    */
-    /* ********************** Class tags ********************** */
-    /*  */
-    
-    /* .box{
-      background-color: rgba(252, 252, 252, 0.2);
-      border-radius: 25px;
-      border: 1mm ridge white;
-      box-shadow: 5px 5px rgba(1,1,1, 0.5);
-    }
-    .skill-image {
-        height: 4em;
-        padding: 1em;
-    }
-    .main-image {
-        height: 10em;
-        padding: 4em;
-    }
-    .skills-upper-div, .skills-lower-div {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    .android-image {
-        right: 8em;
-        top: 6.5em;
-    }
-    .react-image {
-        left: 8em;
-        bottom: 0.5em;
-    
-    }
-    .ios-image {
-        right: 9em;
-        bottom: 2em;
-    }
-    .js-image {
-        left: 8em;
-        top: 10em;
-    }
-    .java-image {
-        right: 4em;
-        bottom: 6em;
-    }
-    .css-image {
-        left: 1em;
-        bottom: 2em;
-    }
-    .node-image {
-        left: 3em;
-        top: 13em;
-    }
-    .html5-image {
-        right: 2em;
-        top: 10em;
-    }
-
-
-    .edu-col, .work-exp-col{
-      display: inline-table;
-      height: 15em;
-      width: 20em;
-      margin-top: 30px;
-    }
-    .work-exp-title{
-      display: block;
-      text-shadow:  3px 3px rgba(1,1,1, 0.5);
-    }
-    .edu-title{
-      display: inline-block;
-      margin: auto 20px;
-      text-shadow:  3px 3px rgba(1,1,1, 0.5);
-    }
-    .edu-years, .work-exp-years{
-      font-style: italic;
-    }
-    
-    .work-exp-company, .edu-company{
-      font-weight: 100;
-      margin-top: 5px;
-      color:#feec33;
-    }
-    
-    .edu-img, .work-exp-img{
-        margin: 0 auto;
-        display: block;
-      height: 8em;
-      width: 8em;
-    }
-    .subtitle-color{
-      color: #ff6600;
-    }
-    .subtitle-size {
-      font-size: 1.6em;
-    }
-    
-  
-     */
-    
-    /* ********************** ID tags ********************** */
     }

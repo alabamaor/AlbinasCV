@@ -68,7 +68,7 @@ a:hover {
     display: contents;
     text-shadow: 3px 3px rgba(1,1,1, 0.5);
 }
-.edu-title { 
+.edu-title {
     display: table-caption;
     text-shadow: 3px 3px rgba(1,1,1, 0.5);
 }
@@ -97,8 +97,7 @@ a:hover {
     padding: 10px;
 }
 
-
-@media screen and (min-width : 521px) {
+@media screen and (min-width : 651px) {
 
     h1 {
         font-size: 5em;
@@ -170,18 +169,18 @@ a:hover {
     .details-div {
         margin-bottom: 5em;
     }
-    
+
     .edu-title {
         height: 2.5em;
     }
     a > img {
-      height: 1em;
-      margin: auto 15px;
-  }
+        height: 1em;
+        margin: auto 15px;
+    }
 
-  .center-link {
-    margin-left: 10%;
-    margin-right: 10%;
-}
+    .center-link {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
 }
