@@ -97,7 +97,7 @@ a:hover {
     padding: 10px;
 }
 
-@media screen and (min-width : 651px) {
+@media screen and (min-width : 651px) and (orientation: landscape){
 
     h1 {
         font-size: 5em;
@@ -153,6 +153,8 @@ a:hover {
     .java-image {
         right: 4em;
         bottom: 6em;
+           
+        
     }
     .css-image {
         left: 1em;
