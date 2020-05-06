@@ -1,9 +1,8 @@
-@media screen and (min-width : 421px) {
 
-  /* ********************** HTML tags ********************** */
+/* ********************** HTML tags ********************** */
 body {
     background: #142850;
-    background-image: linear-gradient(to right, #0b172b , #233d66,#3b619e,  #233d66, #0b172b); 
+    background-image: linear-gradient(to right, #0b172b , #233d66,#3b619e, #233d66, #0b172b);
     color: white;
     font-size: 16px;
     text-align: center;
@@ -12,156 +11,177 @@ body {
     padding-bottom: 50px;
 }
 h1 {
-    font-size: 5em;
     font-family: 'Sacramento', cursive;
     letter-spacing: 0.01em;
     margin-bottom: 0;
-    text-shadow:  5px 5px rgba(1,1,1, 0.5);
+    text-shadow: 5px 5px rgba(1,1,1, 0.5);
 }
-h1, h2, h3, h5{
-  text-transform: capitalize;
+h1,
+h2,
+h3,
+h5 {
+    text-transform: capitalize;
 }
-h2, h3,h5{
-font-family: 'Merriweather', sans-serif;
-margin: 0;
+h2,
+h3,
+h5 {
+    font-family: 'Merriweather', sans-serif;
+    margin: 0;
 }
-h2{
-  font-size: 1.7em;
-  margin:20px 0;
-}
-h3{
-  font-size: 1.3em;
-}
-h5{
-  font-size: 1em;
-}
-hr{
-  border-top: 1mm ridge rgba(252, 252, 252, 0.5);
-  margin: 50px 15%;
+h2 {
+    margin: 20px 0;
 }
 
+hr {
+    border-top: 1mm ridge rgba(252, 252, 252, 0.5);
+    margin: 50px 15%;
+}
 
-a{
-  color: white;
+a {
+    color: white;
     font-size: 1.1em;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
-a:hover{
-  color: #feec33;
-}
-a>img{
-  height: 1em;
-  margin: auto 15px;
-}
-/* ********************** Class tags ********************** */
-.details-div {
-    margin-bottom: 5em;
+a:hover {
+    color: #feec33;
 }
 
-.skills-lower-div,
-.skills-upper-div {
-    position: relative;
-    bottom: 12.5em;
-    z-index: 4;
+/* ********************** Class tags ********************** */
+
+.box {
+    background-color: rgba(252, 252, 252, 0.2);
+    border-radius: 25px;
+    border: 1mm ridge white;
+    box-shadow: 5px 5px rgba(1,1,1, 0.5);
 }
-.box{
-  background-color: rgba(252, 252, 252, 0.2);
-  border-radius: 25px;
-  border: 1mm ridge white;
-  box-shadow: 5px 5px rgba(1,1,1, 0.5);
-}
-.skill-image {
-    height: 4em;
-    position: relative;
+
+.edu-col,
+.work-exp-col {
+    display: inline-table;
+    height: 15em;
+    width: 14em;
     padding: 1em;
 }
-.main-image {
-    /* display: block; */
-    height: 15rem;
-    /* margin: 0 auto; */
-    position: relative;
-    top: 4em;
-    z-index: 1;
+.work-exp-title {
+    display: contents;
+    text-shadow: 3px 3px rgba(1,1,1, 0.5);
 }
-.android-image {
-    right: 8em;
-    top: 6.5em;
+.edu-title { 
+    display: table-caption;
+    text-shadow: 3px 3px rgba(1,1,1, 0.5);
 }
-.react-image {
-    left: 8em;
-    bottom: 0.5em;
-
-}
-.ios-image {
-    right: 9em;
-    bottom: 2em;
-}
-.js-image {
-    left: 8em;
-    top: 10em;
-}
-.java-image {
-    right: 4em;
-    bottom: 6em;
-}
-.css-image {
-    left: 1em;
-    bottom: 2em;
-}
-.node-image {
-    left: 3em;
-    top: 13em;
-}
-.html5-image {
-    right: 2em;
-    top: 10em;
-}
-.edu-col, .work-exp-col{
-  display: inline-table;
-  height: 15em;
-  width: 14em;
-  padding: 1em;
-}
-.work-exp-title{
-  display: contents;
-  text-shadow:  3px 3px rgba(1,1,1, 0.5);
-}
-.edu-title{
-  height: 2.5em;
-  display: table-caption;
-  text-shadow:  3px 3px rgba(1,1,1, 0.5);
-}
-.edu-years, .work-exp-years{
-  font-style: italic;
+.edu-years,
+.work-exp-years {
+    font-style: italic;
 }
 
-.work-exp-company, .edu-company{
-  font-weight: 100;
-  margin-top: 5px;
-  color:#feec33;
+.edu-company,
+.work-exp-company {
+    font-weight: 100;
+    margin-top: 5px;
+    color: #feec33;
 }
- .work-exp-img{
-  height: 4em; 
+.work-exp-img {
+    height: 4em;
 }
-.edu-img{
-  height: 6em; 
+.edu-img {
+    height: 6em;
 }
-.subtitle-color{
-  color: #ff6600;
-}
-.subtitle-size {
-  font-size: 1.6em;
+.subtitle-color {
+    color: #ff6600;
 }
 
-.all-rights{
-  padding: 10px;
-}
-.center-link{
-  margin-left: 10%;                 
-  margin-right: 10%;                 
+.all-rights {
+    padding: 10px;
 }
 
-/* ********************** ID tags ********************** */
+
+@media screen and (min-width : 521px) {
+
+    h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+    h5 {
+        font-size: 1em;
+    }
+
+    .subtitle-size {
+        font-size: 1.6em;
+    }
+
+    .skills-lower-div,
+    .skills-upper-div {
+        position: relative;
+        bottom: 12.5em;
+        z-index: 4;
+    }
+    .skill-image {
+        height: 4em;
+        position: relative;
+        padding: 1em;
+    }
+    .main-image {
+        height: 15rem;
+        position: relative;
+        top: 4em;
+        z-index: 1;
+    }
+    .android-image {
+        right: 8em;
+        top: 6.5em;
+    }
+    .react-image {
+        left: 8em;
+        bottom: 0.5em;
+
+    }
+    .ios-image {
+        right: 9em;
+        bottom: 2em;
+    }
+    .js-image {
+        left: 8em;
+        top: 10em;
+    }
+    .java-image {
+        right: 4em;
+        bottom: 6em;
+    }
+    .css-image {
+        left: 1em;
+        bottom: 2em;
+    }
+    .node-image {
+        left: 3em;
+        top: 13em;
+    }
+    .html5-image {
+        right: 2em;
+        top: 10em;
+    }
+    .details-div {
+        margin-bottom: 5em;
+    }
+    
+    .edu-title {
+        height: 2.5em;
+    }
+    a > img {
+      height: 1em;
+      margin: auto 15px;
+  }
+
+  .center-link {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 }
