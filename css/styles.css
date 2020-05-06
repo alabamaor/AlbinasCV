@@ -2,15 +2,13 @@
 body {
     background: #142850;
     background-image: linear-gradient(to right, #0b172b , #233d66,#3b619e,  #233d66, #0b172b); 
-    /* background-image: url("../images/pattern.png"); */
     color: white;
     font-size: 16px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
-
 h1 {
     font-size: 5em;
     font-family: 'Sacramento', cursive;
@@ -18,7 +16,7 @@ h1 {
     margin-bottom: 0;
     text-shadow:  5px 5px rgba(1,1,1, 0.5);
 }
-h1, h2, h3{
+h1, h2, h3, h5{
   text-transform: capitalize;
 }
 h2, h3,h5{
@@ -27,6 +25,7 @@ margin: 0;
 }
 h2{
   font-size: 1.7em;
+  margin:20px 0;
 }
 h3{
   font-size: 1.3em;
@@ -34,12 +33,26 @@ h3{
 h5{
   font-size: 0.7em;
 }
-p {
-  width: 12em;
+hr{
+  border-top: 1mm ridge rgba(252, 252, 252, 0.5);
+  margin: 50px 15%;
 }
 
-hr{
-  margin: 50px 10%;
+
+a{
+  color: white;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+
+  color: #feec33;
+}
+a>img{
+  height: 0.7em;
+  margin: auto 15px;
 }
 /* ********************** Class tags ********************** */
 .details-div {
@@ -53,86 +66,99 @@ hr{
     z-index: 4;
 }
 .box{
-
   background-color: rgba(252, 252, 252, 0.2);
   border-radius: 25px;
   border: 1mm ridge white;
   box-shadow: 5px 5px rgba(1,1,1, 0.5);
 }
 .skill-image {
-    height: 5em;
+    height: 4em;
     position: relative;
     padding: 1em;
 }
 .main-image {
-    display: block;
-    height: 25rem;
-    margin: 0 auto;
+    /* display: block; */
+    height: 15rem;
+    /* margin: 0 auto; */
     position: relative;
-    top: 5em;
+    top: 4em;
     z-index: 1;
 }
 .android-image {
     right: 8em;
-    top: 3.5em;
+    top: 6.5em;
 }
 .react-image {
     left: 8em;
-    bottom: 3.5em;
+    bottom: 0.5em;
 
 }
 .ios-image {
     right: 9em;
-    bottom: 10em;
+    bottom: 2em;
 }
 .js-image {
-    left: 9em;
+    left: 8em;
     top: 10em;
 }
 .java-image {
     right: 4em;
-    bottom: 15em;
+    bottom: 6em;
 }
 .css-image {
     left: 1em;
-    bottom: 10em;
+    bottom: 2em;
 }
 .node-image {
-
-    left: 4em;
+    left: 3em;
     top: 13em;
 }
 .html5-image {
-    right: 1em;
+    right: 2em;
     top: 10em;
 }
-.smth {
-    height: 100px;
-    width: 100px;
-    background-color: red;
-}
-
-.work-exp-col{
+.edu-col, .work-exp-col{
   display: inline-table;
   height: 15em;
   width: 14em;
   padding: 1em;
 }
 .work-exp-title{
-  height: 3em;
-  vertical-align: middle;
   display: contents;
+  text-shadow:  3px 3px rgba(1,1,1, 0.5);
 }
-.work-exp-years{
+.edu-title{
+  height: 2.5em;
+  display: table-caption;
+  text-shadow:  3px 3px rgba(1,1,1, 0.5);
+}
+.edu-years, .work-exp-years{
   font-style: italic;
 }
 
-.work-exp-company{
+.work-exp-company, .edu-company{
   font-weight: 100;
+  margin-top: 5px;
+  color:#feec33;
 }
 
-.work-exp-img{
+.edu-img, .work-exp-img{
   height: 4em;
   width: 4em;
 }
+.subtitle-color{
+  color: #ff6600;
+}
+.subtitle-size {
+  font-size: 1.6em;
+}
+
+.all-rights{
+  padding: 10px;
+}
+.center-link{
+  margin-left: 10%;                 
+  margin-right: 10%;                 
+}
+
 /* ********************** ID tags ********************** */
