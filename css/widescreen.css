@@ -33,7 +33,7 @@ h3{
   font-size: 1.3em;
 }
 h5{
-  font-size: 0.7em;
+  font-size: 1em;
 }
 hr{
   border-top: 1mm ridge rgba(252, 252, 252, 0.5);
@@ -142,10 +142,11 @@ a>img{
   margin-top: 5px;
   color:#feec33;
 }
-
-.edu-img, .work-exp-img{
-  height: 4em;
-  width: 4em;
+ .work-exp-img{
+  height: 4em; 
+}
+.edu-img{
+  height: 6em; 
 }
 .subtitle-color{
   color: #ff6600;
