@@ -97,7 +97,7 @@ a:hover {
     padding: 10px;
 }
 
-@media screen and (min-width : 651px) and (orientation: landscape){
+@media screen and (min-width : 651px){
 
     h1 {
         font-size: 5em;
@@ -153,8 +153,6 @@ a:hover {
     .java-image {
         right: 4em;
         bottom: 6em;
-           
-        
     }
     .css-image {
         left: 1em;
@@ -183,6 +181,10 @@ a:hover {
     .center-link {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .skills-div{
+        margin-top: 30px;
     }
 
 }
