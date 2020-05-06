@@ -1,4 +1,6 @@
-/* ********************** HTML tags ********************** */
+@media screen and (min-width : 421px) {
+
+  /* ********************** HTML tags ********************** */
 body {
     background: #142850;
     background-image: linear-gradient(to right, #0b172b , #233d66,#3b619e,  #233d66, #0b172b); 
@@ -47,11 +49,10 @@ a{
     text-decoration: none;
 }
 a:hover{
-
   color: #feec33;
 }
 a>img{
-  height: 0.7em;
+  height: 1em;
   margin: auto 15px;
 }
 /* ********************** Class tags ********************** */
@@ -162,3 +163,4 @@ a>img{
 }
 
 /* ********************** ID tags ********************** */
+}
